@@ -1,0 +1,26 @@
+table,tr,td,th{
+    /* border:2px solid purple; */
+    border-collapse: collapse;
+    border-bottom:2px solid white;
+    
+}
+table{
+    height:auto;
+    width:100%;
+    background-color: salmon;
+    color:white;
+}
+td{
+    text-align: right;
+    height:50px;
+    vertical-align:middle ;
+}
+/* tr:nth-child(even)
+{
+ background-color: salmon;
+ color:seashell
+} */
+ tr:hover{
+     background-color: slateblue;
+     color:thistle;
+ }
